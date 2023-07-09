@@ -5,9 +5,17 @@ ruby File.read('.ruby-version').strip
 
 
 gem "rails", "~> 7.0.6"
+
+gem 'activerecord-cockroachdb-adapter', '~> 7.0', '>= 7.0.2'
+gem 'bcrypt', '~> 3.1', '>= 3.1.19'
+gem 'draper', '~> 4.0', '>= 4.0.2'
+# gem 'graphql', '~> 1.12', '>= 1.12.4'
+# gem 'graphql_rails', '~> 2.3'
+gem 'jwt', '~> 2.7', '>= 2.7.1'
+gem 'jbuilder', '~> 2.11', '>= 2.11.5'
 gem "pg", "~> 1.1"
 gem "puma", "~> 5.0"
-gem 'activerecord-cockroachdb-adapter', '~> 7.0', '>= 7.0.2'
+gem 'whenever', '~> 1.0', require: false
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 # gem "jbuilder"
@@ -63,4 +71,3 @@ group :test do
   gem 'simplecov', '~> 0.22.0'
   gem 'webmock', '~> 3.18', '>= 3.18.1'
 end
-
