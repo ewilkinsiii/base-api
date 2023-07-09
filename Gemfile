@@ -34,6 +34,7 @@ group :development, :test do
   gem 'annotate', '~> 3.2'
   gem 'dotenv-rails', '~> 2.8', '>= 2.8.1'
   gem 'factory_bot_rails', '~> 6.2'
+  gem 'faker', '~> 3.2'
   gem 'pry-byebug', '~> 3.10', '>= 3.10.1'
   gem 'pry-rails', '~> 0.3.9'
   gem 'rspec_api_documentation', '~> 6.1'
@@ -52,5 +53,14 @@ group :development do
   gem 'rubocop-rails', '~> 2.20', '>= 2.20.2'
   gem 'rubocop-rootstrap', '~> 1.2'
   gem 'spring', '~> 4.1', '>= 4.1.1'
+end
+
+group :test do
+  gem 'database_cleaner', '~> 2.0', '>= 2.0.2'
+  gem 'pg_query', '~> 4.2', '>= 4.2.1'
+  gem 'prosopite', '~> 1.3', '>= 1.3.2'
+  gem 'shoulda-matchers', '~> 5.3'
+  gem 'simplecov', '~> 0.22.0'
+  gem 'webmock', '~> 3.18', '>= 3.18.1'
 end
 
