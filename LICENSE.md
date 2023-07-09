@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2023 DarkStar UD
+Copyright (c) 2023 Eugene Wilkins III
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -22,3 +22,5 @@ Things you may want to cover:
 - Deployment instructions
 
 - ...
+
+> FCAlertView is available under the MIT license. See the LICENSE file for more info.
