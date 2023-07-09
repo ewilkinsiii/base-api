@@ -41,7 +41,16 @@ group :development, :test do
 end
 
 group :development do
-  # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
-  # gem "spring"
+  gem "awesome_print", require:"ap"
+  gem 'better_errors', '~> 2.10', '>= 2.10.1'
+  gem 'binding_of_caller', '~> 1.0'
+  gem 'brakeman', '~> 6.0'
+  gem 'i18n-tasks', '~> 1.0', '>= 1.0.12'
+  gem 'listen', '~> 3.8'
+  gem 'rails_best_practices', '~> 1.23', '>= 1.23.2'
+  gem 'reek', '~> 6.1', '>= 6.1.4'
+  gem 'rubocop-rails', '~> 2.20', '>= 2.20.2'
+  gem 'rubocop-rootstrap', '~> 1.2'
+  gem 'spring', '~> 4.1', '>= 4.1.1'
 end
 
