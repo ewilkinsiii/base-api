@@ -9,8 +9,8 @@ gem "rails", "~> 7.0.6"
 gem 'activerecord-cockroachdb-adapter', '~> 7.0', '>= 7.0.2'
 gem 'bcrypt', '~> 3.1', '>= 3.1.19'
 gem 'draper', '~> 4.0', '>= 4.0.2'
-# gem 'graphql', '~> 1.12', '>= 1.12.4'
-# gem 'graphql_rails', '~> 2.3'
+gem 'graphql', '~> 1.12', '>= 1.12.4'
+gem 'graphql_rails', '~> 2.3'
 gem 'jwt', '~> 2.7', '>= 2.7.1'
 gem 'jbuilder', '~> 2.11', '>= 2.11.5'
 gem "pg", "~> 1.1"
